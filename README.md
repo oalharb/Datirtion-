@@ -31,5 +31,5 @@ At this stage, the following are the expected potential challenges:
 
 Yes, we believe that there is enough time to resolve this problem. This is based on the experience we gained during the Datathon and the preliminary reasearch that we conducted. 
 
-### This is our public Git Hub REPO link
+### Here is our public Git Hub REPO link
 https://github.com/aljuaidm/Datrition
