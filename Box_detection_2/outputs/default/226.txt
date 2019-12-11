@@ -1,4 +1,11 @@
-QA.
-Me dl Xe
-
-cy
+Nutritional Information
+Values Per 100g Values Unit
+Energy 463 Keal
+Energy 1963 KJ
+Fats 27.4 g
+- of which saturated 16.0 g
+Carbohydrates 90.2 g
+- of which sugars 48.1 g
+Protein 3.8 g
+Salt 0.0 g
+BEST BEFORE: 30 DEC 201
