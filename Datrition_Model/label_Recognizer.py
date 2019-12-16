@@ -45,7 +45,7 @@ def label_Recognizer(path):
 #        return result
          
         dx_nutrition = pd.DataFrame(result)
-        dx_nutrition.product_id = dx_nutrition.product_id.apply(lambda x:x.replace('./cropped\\',''))
+        dx_nutrition.product_id = dx_nutrition.product_id.apply(lambda x:x.replace('./cropped/',''))
 #         dx_nutrition.to_csv('Datrition_df.csv', index=False)
         return dx_nutrition
     

@@ -84,7 +84,7 @@ def image_crop(path):
         plt.imshow(img_final_bin)
 
         # Find contours for image, which will detect all the boxes (if you are using Mac OX, delete im2,)
-        im2, contours, hierarchy = cv2.findContours(img_final_bin, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE) #UPDATE
+        contours, hierarchy = cv2.findContours(img_final_bin, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE) #UPDATE
 
         # Sort all the contours by top to bottom.
         (contours, boundingBoxes) = sort_contours(contours, method="top-to-bottom")
