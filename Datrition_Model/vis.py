@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 def nut_plot(data, x):
     fig = go.Figure(go.Indicator(
         mode = "gauge+number+delta",
-        value = data.iloc[x][7],
+        value = data.iloc[x][4],
         domain = {'x': [0, 1], 'y': [1, 0]},
         title = {'text': "Sugars g", 'font': {'size': 20}},
         delta = {'reference': 0, 'decreasing': {'color': "green"}
@@ -28,7 +28,7 @@ def nut_plot(data, x):
     
     fig = go.Figure(go.Indicator(
         mode = "gauge+number+delta",
-        value = data.iloc[x][4],
+        value = data.iloc[x][7],
         domain = {'x': [0, 1], 'y': [1, 0]},
         title = {'text': "Saturated Fat g", 'font': {'size': 20}},
         delta = {'reference': 0, 'decreasing': {'color': "green"}
@@ -57,7 +57,7 @@ def nut_plot(data, x):
 
     fig = go.Figure(go.Indicator(
         mode = "gauge+number+delta",
-        value = data.iloc[x][11],
+        value = data.iloc[x][8],
         domain = {'x': [0, 1], 'y': [1, 0]},
         title = {'text': "Trans Fat g", 'font': {'size': 20}},
         delta = {'reference': 0, 'decreasing': {'color': "green"}
@@ -82,7 +82,7 @@ def nut_plot(data, x):
   
     fig = go.Figure(go.Indicator(
         mode = "gauge+number+delta",
-        value = data.iloc[x][9],
+        value = data.iloc[x][10],
         domain = {'x': [0, 1], 'y': [0, 1]},
         title = {'text': "Sodium mg", 'font': {'size': 20}},
         delta = {'reference': 0, 'decreasing': {'color': "green"}
