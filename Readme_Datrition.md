@@ -7,7 +7,7 @@
 
 Reading product images, detecting, and extracting Nutrition Facts Label is a challenging task for regulators and consumers. This is something that has been learned during the Datathon of Saudi Food and Drug Authority (SFDA). SFDA is looking for an open source solution that address thier problem and help them better regulate the local market. Our project aims to work with thier data and develop a model that will help them address this issue. 
 
-The project pipeline is going to consist of three stages, namely; Image Preprocessing, Image Processing, and Image Postprocessing. The intention is to take this further and try to address the challenge of reading product images in different languages of countries that are the main places of importation such as Chinese, Japanese etc.
+The project pipeline is going to consist of three stages, namely; Image Preprocessing, Image Processing, and Postprocessing. The intention is to take this further and try to address the challenge of reading product images in different languages of countries that are the main places of importation such as Chinese, Japanese etc and different nutrition facts labels' format.
 
 ### Who is your audience?  Why will they care?
 
@@ -29,7 +29,7 @@ At this stage, the following are the expected potential challenges:
 
 ### Is this a reasonable project given the time constraints that you have?
 
-Yes, we believe that there is enough time to resolve this problem. This is based on the experience we gained during the Datathon and the preliminary reasearch that we conducted. 
+Yes, we believe that there is enough time to understand this problem and provide a suitable model. 
 
 ### Here is our public Git Hub REPO link
 https://github.com/aljuaidm/Datrition
